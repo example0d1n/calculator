@@ -7,12 +7,19 @@ body{
     background-color:#fba0be;
 
 }
-#Calculator{
+#calculator{
     font-family: Helvetica, Arial, sans-serif;
     background: #FACCD7;
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin:left;
+    display:hidden;
+    text-wrap: left;
 }
 #display{
     width: 100%;
@@ -21,7 +28,7 @@ body{
     text-align: left;
     border: none;
     background-color: #FBFDFB;
-    color:black;
+    color:pink;
 }
 #keys{
     display: grid;
